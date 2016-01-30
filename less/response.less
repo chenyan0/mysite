@@ -1,0 +1,146 @@
+@import "var";
+@import "base";
+*{
+  box-sizing:border-box;
+}
+*[text-l]{
+  text-align: left;
+}
+*[text-c]{
+  text-align: center;
+}
+*[text-r]{
+  text-align: right;
+}
+.public(){
+  & {
+    width: @num1*1px-100px;
+    margin: 0 auto;
+  }
+  .clear();
+  &-fluid{
+    width: 100%;
+    .clear();
+  }
+  &>.row{
+    width: 100%;
+    .clear();
+  }
+  &-fluid>.row{
+    width: 100%;
+    .clear();
+  }
+}
+
+
+
+
+.response(@type,@i:1) when (@i<=@col){
+  &>.row>.col-@{type}-@{i}{
+    float: left;
+    width: @i/@col*100%;
+  }
+
+  &-fluid>.row>.col-@{type}-@{i}{
+    float: left;
+    width: @i/@col*100%;
+  }
+  &>.row>.col-@{type}-right-@{i}{
+    position: relative;
+    left: @i/@col*100%;
+  }
+
+  &>.row>.col-@{type}-left-@{i}{
+    position: relative;
+    left: @i/@col*-100%;
+  }
+  &-fluid>.row>.col-@{type}-right-@{i}{
+      position: relative;
+      left: @i/@col*100%;
+    }
+  &-fluid>.row>.col-@{type}-left-@{i}{
+    position: relative;
+    left: @i/@col*-100%;
+  }
+
+  .response(@type,@i+1);
+}
+.container{
+  .response(s);
+}
+.container{
+  @media screen and (max-width: @num1){
+
+    .public();
+    //显示
+    &>.row>.col-s-v{
+      display: block;
+    }
+    &>.row>.col-s-h{
+      display: none;
+    }
+    &-fluid>.row>.col-s-v{
+      display: block;
+    }
+
+    &-fluid>.row>.col-s-h{
+      display: none;
+    }
+  }
+
+
+  @media screen and (min-width: @num1) and (max-width:@num2) {
+    .response(m);
+    .public();
+    width:@num1+200px;
+    &>.row>.col-m-v{
+      display: block;
+    }
+    &>.row>.col-m-h{
+      display: none;
+    }
+    &-fluid>.row>.col-m-v{
+      display: block;
+    }
+    &-fluid>.row>.col-m-h{
+      display: none;
+    }
+  }
+
+
+
+  @media screen and (min-width: @num2){
+    .response(l);
+    .public();
+    width:@num2;
+    &>.row>.col-l-v{
+      display: block;
+    }
+    &>.row>.col-l-h{
+      display: none;
+    }
+
+    &-fluid>.row>.col-l-v{
+      display: block;
+    }
+    &-fluid>.row>.col-l-h{
+      display: none;
+    }
+
+
+  }
+
+}
+.clear(){
+  &:before,&:after{
+    content: "";
+    display: block;
+  }
+  &:after{
+    clear: both;
+  }
+}
+
+
+
+

@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "a";
+  src: url('../font/iconfont.eot'); /* IE9*/
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@name1:home;
+@name2:about;
+@name3:project;
+@name4:contact;
+@name5:menu;
+@name6:message;
+@name7:love;
+@name8:weixin;
+@name9:weibo;
+@name10:skill;
+@name11:web;
+@name12:music;
+@name13:happy;
+@name14:sad;
+@name15:news;
+@name16:eye;
+@name17:yumaoqiu;
+@name18:health;
+
+
+@con1:e600;
+@con2:e601;
+@con3:e602;
+@con4:e603;
+@con5:e604;
+@con6:e605;
+@con7:e60b;
+@con8:e606;
+@con9:e608;
+@con10:e607;
+@con11:e60a;
+@con12:e60c;
+@con13:e60d;
+@con14:e60e;
+@con15:e60f;
+@con16:e610;
+@con17:e612;
+@con18:e611;
+.for(@i:1) when (@i<=18){
+    @n:'name@{i}';
+    @c:'con@{i}';
+    @n1:@@n;
+    @c1:@@c;
+    *[data-role=@{n1}]:before{
+        content: "\@{c1}";
+        font-family:"a";
+
+
+    }
+  *[data-role=@{n1}][icon-pos=top]:before{
+    content: "\@{c1}";
+    font-family:"a";
+    display: block;
+
+  }
+  *[data-role=@{n1}][icon-pos=right]:before{
+    content: "";
+    font-family:"a";
+
+  }
+  *[data-role=@{n1}][icon-pos=bottom]:before{
+    content: "";
+    font-family:"a";
+
+  }
+  *[data-role=@{n1}][icon-pos=right]:after{
+    content: "\@{c1}";
+    font-family:"a";
+
+  }
+  *[data-role=@{n1}][icon-pos=bottom]:after{
+    content: "\@{c1}";
+    font-family:"a";
+    display: block;
+
+  }
+    .for(@i+1);
+}
+.for();
