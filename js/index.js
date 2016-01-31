@@ -168,9 +168,9 @@ $(function(){
     $(".head-nav").click(function (e) {
         var j=$(this).index(".head-nav");
         if(j!=3){
-            $(".swiper-wrapper").css({transform:"translate3d(0,"+j*-673+"px,0)"});
+            $(".swiper-wrapper").css({transform:"translate3d(0,"+j*-669+"px,0)"});
         }else{
-            $(".swiper-wrapper").css({transform:"translate3d(0,"+(j+1)*-673+"px,0)"});
+            $(".swiper-wrapper").css({transform:"translate3d(0,"+(j+1)*-669+"px,0)"});
         }
     });
     $(".item").click(function (e) {
