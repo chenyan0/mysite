@@ -82,7 +82,8 @@ $(function(){
     $(".card").click(function(){
         var index=$($(".card")).index(this);
         $(".card").css({display:"none"});
-        $(".card-info").slideDown(1000).find($(".info").eq(index)).slideDown();
+        $(".card-info").slideDown(500).find($(".info").eq(index)).slideDown();
+
     });
     $(".close-info").click(function () {
         $(".card-info").slideUp(1000);
@@ -97,8 +98,10 @@ $(function(){
         $(".hex").css({zIndex:1});
     });
     $(".gallery-item .overlay").hover(function () {
+        $(this).animate({backgroundSize:'300%'});
         $(this).find(".a").css({display:"block"}).animate({transform:"rotateZ(140deg)"},500);
     },function(){
+        $(this).animate({backgroundSize:'170%'});
         $(this).find(".a").css({display:"none"}).animate({transform:"rotateZ(-140deg)"},500);
     });
 //    前端展示
@@ -120,15 +123,15 @@ $(function(){
     });
     $(".wf-img").hover(function () {
         $(this).find(".wf-name").css({zIndex:10,opacity:0.6});
-
     }, function () {
         $(this).find(".wf-name").css({opacity:"0",zIndex:0});
     })
 //    大图展示
     $(".a").click(function () {
-        var bg=$(this).parent().attr("style").split("(")[1].split(";")[0];
+        var bg=$(this).parent().css('background-image');
+        console.log(bg);
         $(".show-datu").css({display:"block"});
-        $(".show").css({backgroundImage:"url(./"+bg+""});
+        $(".show").css({backgroundImage:bg});
     });
     $(".close").click(function () {
         $(".show-datu").css("display","none");
@@ -190,6 +193,7 @@ $(function(){
         $("input:text").blur(function () {
             $("input:text").change(function () {
                 newv=$(this).val();
+                console.log(newv,oldv);
                 if(newv!=oldv){
                     $(this).val(newv);
                 }else{
