@@ -473,3 +473,81 @@
   font-family: "a";
   display: block;
 }
+*[data-role=geren]:before {
+  content: "\e615";
+  font-family: "a";
+}
+*[data-role=geren][icon-pos=top]:before {
+  content: "\e615";
+  font-family: "a";
+  display: block;
+}
+*[data-role=geren][icon-pos=right]:before {
+  content: "";
+  font-family: "a";
+}
+*[data-role=geren][icon-pos=bottom]:before {
+  content: "";
+  font-family: "a";
+}
+*[data-role=geren][icon-pos=right]:after {
+  content: "\e615";
+  font-family: "a";
+}
+*[data-role=geren][icon-pos=bottom]:after {
+  content: "\e615";
+  font-family: "a";
+  display: block;
+}
+*[data-role=email]:before {
+  content: "\e601";
+  font-family: "a";
+}
+*[data-role=email][icon-pos=top]:before {
+  content: "\e601";
+  font-family: "a";
+  display: block;
+}
+*[data-role=email][icon-pos=right]:before {
+  content: "";
+  font-family: "a";
+}
+*[data-role=email][icon-pos=bottom]:before {
+  content: "";
+  font-family: "a";
+}
+*[data-role=email][icon-pos=right]:after {
+  content: "\e601";
+  font-family: "a";
+}
+*[data-role=email][icon-pos=bottom]:after {
+  content: "\e601";
+  font-family: "a";
+  display: block;
+}
+*[data-role=tel]:before {
+  content: "\e613";
+  font-family: "a";
+}
+*[data-role=tel][icon-pos=top]:before {
+  content: "\e613";
+  font-family: "a";
+  display: block;
+}
+*[data-role=tel][icon-pos=right]:before {
+  content: "";
+  font-family: "a";
+}
+*[data-role=tel][icon-pos=bottom]:before {
+  content: "";
+  font-family: "a";
+}
+*[data-role=tel][icon-pos=right]:after {
+  content: "\e613";
+  font-family: "a";
+}
+*[data-role=tel][icon-pos=bottom]:after {
+  content: "\e613";
+  font-family: "a";
+  display: block;
+}

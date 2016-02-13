@@ -191,6 +191,7 @@ $(function(){
         var oldv=$(this).val();
         $(this).val("");
         $("input:text").blur(function () {
+
             $("input:text").change(function () {
                 newv=$(this).val();
                 console.log(newv,oldv);
