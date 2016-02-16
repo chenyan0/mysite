@@ -241,12 +241,13 @@ p,body,a,span{
     cursor: pointer;
 }
 .base,.love,.skill,.web{
+    font-family: 微软雅黑;
     width: 100%;
     padding: 5%;
     position: absolute;
     left: 0;
     top:0;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     display: none;
 }
@@ -545,17 +546,8 @@ p,body,a,span{
     margin-left: -16px;
     display: none;
 }
-.two{
-    /*display: none;*/
-    z-index: 0;
 
-}
-.one{
-    z-index: 2;
-}
-.two>.wf-list{
-    transform: scale(0,0);
-}
+
 .title{
     animation: rotate 4s infinite;
 }
@@ -1033,7 +1025,15 @@ figure.wf-list:hover img {
 .wf-large{
     height: 100%;
 }
+.one{
+    z-index: 2;
+}
+.two{
+    z-index: 0;
+    transform: scale(0,0);
+    top:-460px;
 
+}
 /*前端作品展示----------------------*/
 
 
@@ -1197,7 +1197,7 @@ input[type=submit]{
     .right{
         background-image: none;
     }
-    .project-grid-email{
+    .project-grid-name{
         top: 26%;
         left: 44%;
 
@@ -1206,7 +1206,7 @@ input[type=submit]{
         top: 50%;
         left: 44%;
     }
-    .project-grid-name{
+    .project-grid-email{
         top:74%;
         left: 44%;
     }
@@ -1363,6 +1363,7 @@ input[type=submit]{
         top: 68%;
         left: 58%;
     }
+
     .wf-large{
         width: 100%;
     }
@@ -1474,6 +1475,7 @@ input[type=submit]{
         left: 0;
         top:80px;
     }
+
     .web img{
         margin-top: 100px;
         width: 90%;
