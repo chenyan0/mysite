@@ -16,7 +16,7 @@ $(function(){
             $(".wf-large").css("display","block");
             $(".wf-small").css("display","none");
         }
-        if(clientW<550){
+        if(clientW<800){
             $(".skill").find(".can").css("display","none");
         }else{
             $(".skill").find(".can").css("display","block");
