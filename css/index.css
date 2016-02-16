@@ -841,12 +841,16 @@ p,body,a,span{
 
 
 /*前端作品展示----------------------*/
+.wf-s-show{
+    width: 90%;
+    margin:0 auto;
+}
 .wf-name {
     opacity: 0;
     position:absolute;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+
     background-color: #000;
     z-index: 0;
     transition: all 1s ease;
@@ -900,7 +904,7 @@ a:active{
     width: 80%;
     height: 80%;
     margin:0 auto;
-    border-radius: 50%;
+
     background-size: cover;
 }
 .yx-img1{
@@ -1213,16 +1217,7 @@ input[type=submit]{
 
 /*----------------小屏------------*/
 @media screen and (max-width : 700px)	{
-    .aa{
-        position: relative;
-        top:-50px;
-        left: -100px;
-    }
-    .bb{
-        position: relative;
-        top: -320px;
-        left: 100px;
-    }
+
     .right{
         background-image: none;
     }

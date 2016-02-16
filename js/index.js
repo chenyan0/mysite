@@ -6,6 +6,7 @@ $(function(){
         console.log(clientH);
 
         if(clientW<700){
+            $("#newpost").css("display","none");
             $(".header1").css("display","none");
             $(".header2").css("display","block");
             $(".wf-large").css("display","none");

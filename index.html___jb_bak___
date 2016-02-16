@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -18,466 +19,333 @@
     <script src="js/index.js"></script>
 </head>
 <body>
-    <div class="zhezhao"> </div>
-    <div class="nav">
-        <div class=" header1">
-            <div class="nav-start">
-                <div class="head-nav home" data-role="home" icon-pos="top"><span>Home</span></div>
-                <div class="head-nav about" data-role="about" icon-pos="top"><span>About</span></div>
-                <div class="head-nav project" data-role="project" icon-pos="top"><span>Project</span></div>
-                <div class="head-nav contact" data-role="contact" icon-pos="top"><span>Contact</span></div>
-            </div>
-
+<div class="zhezhao"> </div>
+<div class="nav">
+    <div class=" header1">
+        <div class="nav-start">
+            <div class="head-nav home" data-role="home" icon-pos="top"><span>Home</span></div>
+            <div class="head-nav about" data-role="about" icon-pos="top"><span>About</span></div>
+            <div class="head-nav project" data-role="project" icon-pos="top"><span>Project</span></div>
+            <div class="head-nav contact" data-role="contact" icon-pos="top"><span>Contact</span></div>
         </div>
 
     </div>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <!--home-->
-                <div class="container-fluid homepage swiper-slide">
-                    <div class="row ">
-                        <span>Welcome to My World</span>
-                        <div class="home-circle">
 
-                        </div>
-                        <div class="nav">
-                            <div class=" header2">
-                                <div class="col-s-12 menu" text-c>
-                                    <div class="menu-icon" data-role="menu">
-                                        <div class="son">
-                                            <a class="item">Home</a>
-                                            <a class="item">About</a>
-                                            <a class="item">Project</a>
-                                            <a class="item">Contact</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!--home-->
+        <div class="container-fluid homepage swiper-slide">
+            <div class="row ">
+                <span>Welcome to My World</span>
+                <div class="home-circle">
 
                 </div>
-            <!--aboutme-->
-                <div class="container-fluid aboutme swiper-slide">
-                    <div class="row ">
-                        <div class="myps-title title"><span>ABOUT ME</span></div>
-                        <div class="card base-card ">
-                            <p>基本信息</p>
-                            <div class="icon" data-role="message"></div>
-                        </div>
-                        <div class="card love-card ">
-                            <p>爱好</p>
-                            <div class="icon" data-role="love"></div>
-                        </div>
-                        <div class="card skill-card ">
-                            <p>技能</p>
-                            <div class="icon" data-role="skill"></div>
-                        </div>
-                        <div class="card web-card " >
-                            <p>社交网络</p>
-                            <div class="icon" data-role="web"></div>
-                        </div>
-                        <div class="card-info">
-                            <button type="button" class="close close-info" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <div class="info base">
-                                <p>基本信息</p>
-                                <p>姓名: 陈燕</p>
-                                <p>职业: 前端工程师</p>
-                                <p>性别: 女</p>
-                                <p>年龄: 22</p>
-                                <p>星座: 金牛座</p>
-                                <p>政治面貌: 团员</p>
-                                <p>毕业院校: 吕梁学院 </p>
-                                <p>籍贯: 山西省临汾市</p>
-                                <p></p>
-
-                            </div>
-                            <div class="info love">
-                                <p>我的小小世界</p>
-                                <span></span><p>我喜欢听<i class="l1" data-role="music"></i>音乐,会跟随自己的心情选择不一样的歌曲,快乐的歌曲会让自己心情很愉悦<i class="l2" data-role="happy"></i>,当然,偶尔也会被伤感<i class="l3" data-role="sad"></i>的歌曲影响</p>
-                                <span></span><p>我喜欢看新闻<i class="l4" data-role="news"></i>,世界上每天都有太多的事情会发生,关注其他的东西让自己的视野<i class="l5" data-role="eye"></i>更开阔,了解到更多</p>
-                                <span></span><p>我喜欢打羽毛球<i class="l6" data-role="yumaoqiu"></i>,强身健体对每个人都是非常必要的,都说身体是革命的本钱<i class="l7" data-role="health"></i>,不管做什么，健康永远是最重要的</p>
-                            </div>
-                            <div class="info skill">
-                                <p>职业技能</p>
-                                <div class="skills">
-                                    <div class="skill-item" ></div>
-                                    <div class="skill-item"></div>
-                                    <div class="skill-item"></div>
-                                    <div class="skill-item"></div>
-                                    <div class="skill-item" ></div>
-                                    <div class="skill-item"></div>
-                                    <div class="skill-item"></div>
-                                    <div class="clear"></div>
-                                </div>
-                                <div class="cans">
-                                    <p class="can">能对WEB前端页面进行开发，实现页面交互，代码优化</p>
-                                    <p class="can">熟练掌握javascript、ajax以及常用的javascript框架</p>
-                                    <p class="can">熟练使用html5、css3及javascript完成页面布局开发</p>
-                                    <p class="can">熟悉响应式的原理，能使用BootStrap框架实现三种以上响应式布局</p>
-                                    <p class="can">能熟练使用PS、AI等设计软件,有一定的美术功底</p>
-                                </div>
-
-                            </div>
-                            <div class="info web">
-                                <p>请和我联络吧</p>
-                                <div class="weixin"><img src="img/mmqrcode1455594595715.png" alt="微信"></div>
-                                <div class="weibo"><img src="img/weibo(2).png" alt="微博"></div>
-                                <div class="qq"><img src="img/qq(2).jpg" alt="腾讯qq"></div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            <!--前端展示-->
-
-            <div class="container-fluid web-front1 swiper-slide">
-                <div class="container-fluid wf-large">
-                    <div class="web-title title"><span>GAME·APPLY</span></div>
-                    <div class="row web-show ">
-                        <figure class="wf-list col-m-4 col-l-3 one">
-                            <img src="img/web-mi.png" alt="img01"/>
-                            <figcaption>
-                                <h2>小米</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/MI" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 one">
-                            <img src="img/web-mao.png" alt="img01"/>
-                            <figcaption>
-                                <h2>天猫</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/Tmall" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 one">
-                            <img src="img/web-iphone.png" alt="img01"/>
-                            <figcaption>
-                                <h2>iPhone</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/apple" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 one">
-                            <img src="img/xingcan.png" alt="img01"/>
-                            <figcaption>
-                                <h2>整站</h2>
-                                <p>Click for more information</p>
-                                <a href="http://xingcan.coding.io" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 one">
-                            <img src="img/web-jisuanqi.png" alt="img01"/>
-                            <figcaption>
-                                <h2>计算器</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/jisuanqi" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 one">
-                            <img src="img/typegame1.png" alt="img01"/>
-                            <figcaption>
-                                <h2>打字游戏1</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/TypeGame1" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 two ">
-                            <img src="img/web-poker.png" alt="img01"/>
-                            <figcaption>
-                                <h2>纸牌</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/Poker" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 two ">
-                            <img src="img/huaban.png" alt="img01"/>
-                            <figcaption>
-                                <h2>画板</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/painter" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-
-                        <figure class="wf-list col-m-4 col-l-3 two">
-                            <img src="img/snake.png" alt="img01"/>
-                            <figcaption>
-                                <h2>贪吃蛇</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/snake" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 two">
-                            <img src="img/note.png" alt="img01"/>
-                            <figcaption>
-                                <h2>备忘录</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/note" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 two">
-                            <img src="img/wuziqi.png" alt="img01"/>
-                            <figcaption>
-                                <h2>五子棋</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/five" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-                        <figure class="wf-list col-m-4 col-l-3 two">
-                            <img src="img/typegame.png" alt="img01"/>
-                            <figcaption>
-                                <h2>打字游戏2</h2>
-                                <p>Click for more information</p>
-                                <a href="http://chenyan0.github.io/TypeGame" target="_blank"></a>
-                            </figcaption>
-                        </figure>
-
-
-
-
-                    </div>
-
-
-                    <div class="button web-more button--nanuk button--border-thin button--round-s">
-                        <span>M</span><span>o</span><span>r</span><span>e</span>
-                    </div>
-                </div>
-                <div class="row wf-small">
-                    <div class="web-title title"><span>GAME·APPLY</span></div>
-                    <div class="wf-icon col-s-12">
-
-                        <div class="img">
-                            <!--<div class="img"></div>-->
-                            <div class="wf-img yx-img1 wf-show">
-                                <div class="wf-name" >
-                                    <a href="http://chenyan0.github.io/poker">纸牌游戏</a>
+                <div class="nav">
+                    <div class=" header2">
+                        <div class="col-s-12 menu" >
+                            <div class="menu-icon" data-role="menu">
+                                <div class="son">
+                                    <a class="item">Home</a>
+                                    <a class="item">About</a>
+                                    <a class="item">Project</a>
+                                    <a class="item">Contact</a>
                                 </div>
                             </div>
-                            <div class="wf-img yx-img2">
-                                <div class="wf-name ">
-                                    <a href="http://chenyan0.github.io/five">五子棋</a>
-                                </div>
-                            </div>
-                            <div class="wf-img yx-img3">
-                                <div class="wf-name ">
-                                    <a href="http://chenyan0.github.io/snake">贪吃蛇</a>
-                                </div>
-                            </div>
-                            <div class="wf-img yx-img4">
-                                <div class="wf-name ">
-                                    <a href="http://chenyan0.github.io/TypeGame1">打字游戏</a>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                            <div class="show-next glyphicon glyphicon-arrow-down"></div>
+
                         </div>
                     </div>
-                    <div class="wf-icon col-s-12 aa">
-                        <div class="img ">
-                            <div class="wf-img ts-img1 wf-show">
-                                <div class="wf-name wf-show" >
-                                    <a href="">qq音乐</a>
-                                </div>
-                            </div>
-                            <div class="wf-img ts-img2">
-                                <div class="wf-name ">
-                                    <a href="">iCloud</a>
-                                </div>
-                            </div>
-                            <div class="wf-img ts-img3">
-                                <div class="wf-name ">
-                                    <a href="http://chenyan0.github.io/painter">画板</a>
-                                </div>
-                            </div>
-                            <div class="wf-img ts-img3">
-                                <div class="wf-name ">
-                                    <a href="http://chenyan0.github.io/jisuanqi">计算器</a>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                            <div class="show-next glyphicon glyphicon-arrow-down"></div>
-                        </div>
-
-                    </div>
-                    <div class="wf-icon col-s-12 bb">
-                        <div class="img ">
-                            <div class="wf-img web-img1 wf-show">
-                                <div class="wf-name wf-show" >
-                                    <a href="http://chenyan0.github.io/Tmall">天猫商城</a>
-                                </div>
-                            </div>
-
-                            <div class="wf-img web-img3">
-                                <div class="wf-name ">
-                                    <a href="http://chenyan0.github.io/MI">小米天地</a>
-                                </div>
-                            </div>
-                            <div class="wf-img web-img4">
-                                <div class="wf-name ">
-                                    <a href="http://chenyan0.github.io/apple">苹果官网</a>
-                                </div>
-                            </div>
-                            <div class="clear"></div>
-                            <div class="show-next glyphicon glyphicon-arrow-down"></div>
-                        </div>
-
-
-                    </div>
-
                 </div>
             </div>
-            <!--ps展示-->
-                <div class="container-fluid myps swiper-slide">
-                <div class="show-datu">
-                    <div class="show"></div>
-                    <button type="button" class="close close-img" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+
+        </div>
+        <!--aboutme-->
+        <div class="container-fluid aboutme swiper-slide">
+            <div class="row ">
+                <div class="myps-title title"><span>ABOUT ME</span></div>
+                <div class="card base-card ">
+                    <p>基本信息</p>
+                    <div class="icon" data-role="message"></div>
                 </div>
-                <div class="row templatemorow" id="post">
-                    <div class="myps-title title"><span>PS·AI</span></div>
-                    <div class="hex-s">
-                        <div class="hex ">
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/1.jpg);">
-                                            <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="card love-card ">
+                    <p>爱好</p>
+                    <div class="icon" data-role="love"></div>
+                </div>
+                <div class="card skill-card ">
+                    <p>技能</p>
+                    <div class="icon" data-role="skill"></div>
+                </div>
+                <div class="card web-card " >
+                    <p>社交网络</p>
+                    <div class="icon" data-role="web"></div>
+                </div>
+                <div class="card-info">
+                    <button type="button" class="close close-info" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="info base">
+                        <p>基本信息</p>
+                        <p>姓名: 陈燕</p>
+                        <p>职业: 前端工程师</p>
+                        <p>性别: 女</p>
+                        <p>年龄: 22</p>
+                        <p>星座: 金牛座</p>
+                        <p>政治面貌: 团员</p>
+                        <p>毕业院校: 吕梁学院 </p>
+                        <p>籍贯: 山西省临汾市</p>
+                        <p></p>
 
+                    </div>
+                    <div class="info love">
+                        <p>我的小小世界</p>
+                        <span></span><p>我喜欢听<i class="l1" data-role="music"></i>音乐,会跟随自己的心情选择不一样的歌曲,快乐的歌曲会让自己心情很愉悦<i class="l2" data-role="happy"></i>,当然,偶尔也会被伤感<i class="l3" data-role="sad"></i>的歌曲影响</p>
+                        <span></span><p>我喜欢看新闻<i class="l4" data-role="news"></i>,世界上每天都有太多的事情会发生,关注其他的东西让自己的视野<i class="l5" data-role="eye"></i>更开阔,了解到更多</p>
+                        <span></span><p>我喜欢打羽毛球<i class="l6" data-role="yumaoqiu"></i>,强身健体对每个人都是非常必要的,都说身体是革命的本钱<i class="l7" data-role="health"></i>,不管做什么，健康永远是最重要的</p>
+                    </div>
+                    <div class="info skill">
+                        <p>职业技能</p>
+                        <div class="skills">
+                            <div class="skill-item" ></div>
+                            <div class="skill-item"></div>
+                            <div class="skill-item"></div>
+                            <div class="skill-item"></div>
+                            <div class="skill-item" ></div>
+                            <div class="skill-item"></div>
+                            <div class="skill-item"></div>
+                            <div class="clear"></div>
                         </div>
-                        <div class="hex">
-
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/2.jpg);">
-                                            <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="hex s-show">
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/11.jpg);">
-                                            <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hex  templatemo-hex-top2">
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/3.jpg);">
-                                            <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="hex  templatemo-hex-top3">
-
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/4.jpg);">
-                                            <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="hex  templatemo-hex-top3">
-
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/5.jpg);">
-                                            <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="hex hex-offset templatemo-hex-top1 templatemo-hex-top2">
-
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/6.jpg);">
-                                            <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="hex templatemo-hex-top1 templatemo-hex-top3">
-
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/7.jpg);" >
-                                            <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="hex templatemo-hex-top1  templatemo-hex-top3">
-
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/8.jpg);">
-                                            <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="hex templatemo-hex-top1  templatemo-hex-top2">
-
-                            <div class="hexagon hexagon2 gallery-item">
-                                <div class="hexagon-in1">
-                                    <div class="hexagon-in2" >
-                                        <div class="overlay" style="background-image: url(img/9.jpg);">
-                                            <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div class="cans">
+                            <p class="can">能对WEB前端页面进行开发，实现页面交互，代码优化</p>
+                            <p class="can">熟练掌握javascript、ajax以及常用的javascript框架</p>
+                            <p class="can">熟练使用html5、css3及javascript完成页面布局开发</p>
+                            <p class="can">熟悉响应式的原理，能使用BootStrap框架实现三种以上响应式布局</p>
+                            <p class="can">能熟练使用PS、AI等设计软件,有一定的美术功底</p>
                         </div>
 
                     </div>
+                    <div class="info web">
+                        <p>请和我联络吧</p>
+                        <div class="weixin"><img src="img/mmqrcode1455594595715.png" alt="微信"></div>
+                        <div class="weibo"><img src="img/weibo(2).png" alt="微博"></div>
+                        <div class="qq"><img src="img/qq(2).jpg" alt="腾讯qq"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--前端展示-->
+
+        <div class="container-fluid web-front1 swiper-slide">
+            <div class="container-fluid wf-large">
+                <div class="web-title title"><span>GAME·APPLY</span></div>
+                <div class="row web-show ">
+                    <figure class="wf-list col-m-4 col-l-3 one">
+                        <img src="img/web-mi.png" alt="img01"/>
+                        <figcaption>
+                            <h2>小米</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/MI" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 one">
+                        <img src="img/web-mao.png" alt="img01"/>
+                        <figcaption>
+                            <h2>天猫</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/Tmall" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 one">
+                        <img src="img/web-iphone.png" alt="img01"/>
+                        <figcaption>
+                            <h2>iPhone</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/apple" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 one">
+                        <img src="img/xingcan.png" alt="img01"/>
+                        <figcaption>
+                            <h2>整站</h2>
+                            <p>Click for more information</p>
+                            <a href="http://xingcan.coding.io" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 one">
+                        <img src="img/web-jisuanqi.png" alt="img01"/>
+                        <figcaption>
+                            <h2>计算器</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/jisuanqi" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 one">
+                        <img src="img/typegame1.png" alt="img01"/>
+                        <figcaption>
+                            <h2>打字游戏1</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/TypeGame1" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 two ">
+                        <img src="img/web-poker.png" alt="img01"/>
+                        <figcaption>
+                            <h2>纸牌</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/Poker" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 two ">
+                        <img src="img/huaban.png" alt="img01"/>
+                        <figcaption>
+                            <h2>画板</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/painter" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="wf-list col-m-4 col-l-3 two">
+                        <img src="img/snake.png" alt="img01"/>
+                        <figcaption>
+                            <h2>贪吃蛇</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/snake" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 two">
+                        <img src="img/note.png" alt="img01"/>
+                        <figcaption>
+                            <h2>备忘录</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/note" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 two">
+                        <img src="img/wuziqi.png" alt="img01"/>
+                        <figcaption>
+                            <h2>五子棋</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/five" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+                    <figure class="wf-list col-m-4 col-l-3 two">
+                        <img src="img/typegame.png" alt="img01"/>
+                        <figcaption>
+                            <h2>打字游戏2</h2>
+                            <p>Click for more information</p>
+                            <a href="http://chenyan0.github.io/TypeGame" target="_blank"></a>
+                        </figcaption>
+                    </figure>
+
+
+
+
                 </div>
 
 
-                <div class="row templatemorow " id="newpost" >
-                    <div class="myps-title title"><span>PS·AI</span></div>
-                    <div class="hex ">
+                <div class="button web-more button--nanuk button--border-thin button--round-s">
+                    <span>M</span><span>o</span><span>r</span><span>e</span>
+                </div>
+            </div>
+            <div class="row wf-small">
+                <div class="web-title title"><span>GAME·APPLY</span></div>
+                <div class="wf-icon col-s-12">
+                    <div class="wf-s-show">
+                        <div class="img">
 
+                        <div class="wf-img yx-img1 wf-show">
+                            <div class="wf-name" >
+                                <a href="http://chenyan0.github.io/poker">纸牌游戏</a>
+                            </div>
+                        </div>
+                        <div class="wf-img yx-img2">
+                            <div class="wf-name ">
+                                <a href="http://chenyan0.github.io/five">五子棋</a>
+                            </div>
+                        </div>
+                        <div class="wf-img yx-img3">
+                            <div class="wf-name ">
+                                <a href="http://chenyan0.github.io/snake">贪吃蛇</a>
+                            </div>
+                        </div>
+                        <div class="wf-img yx-img4">
+                            <div class="wf-name ">
+                                <a href="http://chenyan0.github.io/TypeGame1">打字游戏</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="show-next glyphicon glyphicon-arrow-down"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="wf-icon col-s-12 ">
+                    <div class="img ">
+                        <div class="wf-img ts-img1 wf-show">
+                            <div class="wf-name" >
+                                <a href="http://chenyan0.github.io/poker">纸牌游戏</a>
+
+                            </div>
+                        </div>
+                        <div class="wf-img ts-img2">
+                            <div class="wf-name ">
+                                <a href="">iCloud</a>
+                            </div>
+                        </div>
+                        <div class="wf-img ts-img3">
+                            <div class="wf-name ">
+                                <a href="http://chenyan0.github.io/painter">画板</a>
+                            </div>
+                        </div>
+                        <div class="wf-img ts-img3">
+                            <div class="wf-name ">
+                                <a href="http://chenyan0.github.io/jisuanqi">计算器</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="show-next glyphicon glyphicon-arrow-down"></div>
+                    </div>
+
+                </div>
+                <div class="wf-icon col-s-12 ">
+                    <div class="img ">
+                        <div class="wf-img web-img1 wf-show">
+                            <div class="wf-name wf-show" >
+                                <a href="http://chenyan0.github.io/Tmall">天猫商城</a>
+                            </div>
+                        </div>
+
+                        <div class="wf-img web-img3">
+                            <div class="wf-name ">
+                                <a href="http://chenyan0.github.io/MI">小米天地</a>
+                            </div>
+                        </div>
+                        <div class="wf-img web-img4">
+                            <div class="wf-name ">
+                                <a href="http://chenyan0.github.io/apple">苹果官网</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="show-next glyphicon glyphicon-arrow-down"></div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!--ps展示-->
+        <div class="container-fluid myps swiper-slide">
+            <div class="show-datu">
+                <div class="show"></div>
+                <button type="button" class="close close-img" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="row templatemorow" id="post">
+                <div class="myps-title title"><span>PS·AI</span></div>
+                <div class="hex-s">
+                    <div class="hex ">
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/10.jpg);">
-
+                                    <div class="overlay" style="background-image: url(img/1.jpg);">
                                         <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -490,20 +358,30 @@
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
+                                    <div class="overlay" style="background-image: url(img/2.jpg);">
+                                        <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="hex s-show">
+                        <div class="hexagon hexagon2 gallery-item">
+                            <div class="hexagon-in1">
+                                <div class="hexagon-in2" >
                                     <div class="overlay" style="background-image: url(img/11.jpg);">
                                         <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="hex templatemo-hex-top2">
-
+                    <div class="hex  templatemo-hex-top2">
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/12.jpg);">
+                                    <div class="overlay" style="background-image: url(img/3.jpg);">
                                         <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -511,12 +389,12 @@
                         </div>
 
                     </div>
-                    <div class="hex templatemo-hex-top3">
+                    <div class="hex  templatemo-hex-top3">
 
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/13.jpg);">
+                                    <div class="overlay" style="background-image: url(img/4.jpg);">
                                         <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -524,12 +402,12 @@
                         </div>
 
                     </div>
-                    <div class="hex templatemo-hex-top3">
+                    <div class="hex  templatemo-hex-top3">
 
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/14.jpg);">
+                                    <div class="overlay" style="background-image: url(img/5.jpg);">
                                         <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -542,7 +420,7 @@
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/15.jpg);">
+                                    <div class="overlay" style="background-image: url(img/6.jpg);">
                                         <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -555,7 +433,7 @@
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/16.jpg);" >
+                                    <div class="overlay" style="background-image: url(img/7.jpg);" >
                                         <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -568,7 +446,7 @@
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/17.jpg);">
+                                    <div class="overlay" style="background-image: url(img/8.jpg);">
                                         <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -581,7 +459,7 @@
                         <div class="hexagon hexagon2 gallery-item">
                             <div class="hexagon-in1">
                                 <div class="hexagon-in2" >
-                                    <div class="overlay" style="background-image: url(img/18.jpg);">
+                                    <div class="overlay" style="background-image: url(img/9.jpg);">
                                         <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
                                     </div>
                                 </div>
@@ -589,73 +467,160 @@
                         </div>
 
                     </div>
-                </div>
-                <div class="button ps-more button--nanuk button--border-thin button--round-s">
-                    <span>M</span><span>o</span><span>r</span><span>e</span>
-                </div>
 
+                </div>
             </div>
 
-            <div class="swiper-slide container-fluid contactme">
-                <div class="row">
-                    <div class="contact-title title"><span>CONTACT ME</span></div>
-                    <!--<div class="left">
-                        <div class="contact-list">
-                            <div class="list-item">
-                                <span>NAME</span>
-                                <input type="text" value="Write your name ">
-                            </div>
-                            <div class="list-item">
-                                <span>E-MAIL</span>
-                                <input type="text" value="Write your email ">
-                            </div>
-                            <div class="list-item">
-                                <span>PHONE</span>
-                                <input type="text" >
-                            </div>
-                            <div class="list-item">
-                                <span>COMPANY</span>
-                                <input type="text" >
-                            </div>
-                            <div class="list-item">
-                                <span>MESSAGE</span>
-                                <textarea name="" id="" cols="26" rows="8"></textarea>
-                            </div>
-                            <div class="list-item">
-                                <input type="submit" value="SUBMIT">
+
+            <div class="row templatemorow " id="newpost" >
+                <div class="myps-title title"><span>PS·AI</span></div>
+                <div class="hex ">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/10.jpg);">
+
+                                    <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
                             </div>
                         </div>
+                    </div>
 
-                    </div>-->
-                    <div class="right">
-                        <div class="grid project-grid-name ">
-                            <p>陈 燕</p>
+                </div>
+                <div class="hex">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/11.jpg);">
+                                    <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hex templatemo-hex-top2">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/12.jpg);">
+                                    <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hex templatemo-hex-top3">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/13.jpg);">
+                                    <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hex templatemo-hex-top3">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/14.jpg);">
+                                    <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hex hex-offset templatemo-hex-top1 templatemo-hex-top2">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/15.jpg);">
+                                    <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hex templatemo-hex-top1 templatemo-hex-top3">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/16.jpg);" >
+                                    <div  data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hex templatemo-hex-top1  templatemo-hex-top3">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/17.jpg);">
+                                    <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="hex templatemo-hex-top1  templatemo-hex-top2">
+
+                    <div class="hexagon hexagon2 gallery-item">
+                        <div class="hexagon-in1">
+                            <div class="hexagon-in2" >
+                                <div class="overlay" style="background-image: url(img/18.jpg);">
+                                    <div data-rel="lightbox" class="a glyphicon glyphicon-resize-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="button ps-more button--nanuk button--border-thin button--round-s">
+                <span>M</span><span>o</span><span>r</span><span>e</span>
+            </div>
+
+        </div>
+
+        <div class="swiper-slide container-fluid contactme">
+            <div class="row">
+                <div class="contact-title title"><span>CONTACT ME</span></div>
+                <div class="right">
+                    <div class="grid project-grid-name ">
+                        <p>陈 燕</p>
                             <span>
                                 <i data-role="geren"></i>
                             </span>
-                        </div>
-                        <div class="grid project-grid-email">
-                            <p>
-                                电子邮箱<br>18335832141@163.com</p>
+                    </div>
+                    <div class="grid project-grid-email">
+                        <p>
+                            电子邮箱<br>18335832141@163.com</p>
                             <span>
                                  <i data-role="email"></i>
                             </span>
-                        </div>
-                        <div class="grid project-grid-tel">
-                            <p>联系方式<br>18335832141</p>
+                    </div>
+                    <div class="grid project-grid-tel">
+                        <p>联系方式<br>18335832141</p>
                             <span>
                                  <i data-role="tel"></i>
                             </span>
-                        </div>
-                      <!--  <div class="contact-list">
-
-                            <div class="hi">say Hi to me</div>
-                            <div class="name"><span>Name:</span><span>CHEN YAN</span></div>
-                            <div class="Tel"><span>Tel:</span><span>18335832141</span></div>
-                            <div class="Email"><span>Email:</span><span>18335832141@139.com</span></div>
-                        </div>-->
-                        <!--<div class="myphone"><img src="img/PHONE.png" alt=""></div>-->
-                        <!--<div class="mymail"><img src="img/email.png" alt=""></div>-->
                     </div>
 
                 </div>
@@ -663,23 +628,8 @@
             </div>
 
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+
     </div>
-
-    <!-- Swiper JS -->
-    <script src="js/swiper.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        direction: 'vertical',
-        slidesPerView: 1,
-        paginationClickable: true,
-        spaceBetween: 30,
-        mousewheelControl: true
-    });
-    </script>
+</div>
 </body>
-</html>                            
+</html>
