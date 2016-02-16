@@ -343,12 +343,11 @@ p,body,a,span{
     display: none;
 }
 .web div{
-    width: 222px;
-    height: 222px;
+    width: 25%;
+    height: 25%;
     float: left;
     transform: rotateZ(45deg);
     margin-right: 50px;
-
     margin-top: 30px;
 
 }
@@ -1275,10 +1274,13 @@ input[type=submit]{
         margin: 0 auto;
     }
     .web img{
-        margin-top: 30px;
+        margin-top: 10px;
         width:130px;
         height:130px;
 
+    }
+    .web div{
+        transform:none;
     }
     .wf-large{
         display: none;
@@ -1407,7 +1409,7 @@ input[type=submit]{
     }
     .web img{
         margin-top: 100px;
-        width: 80%;
+        width: 90%;
         height: auto;
     }
     .card-info p{
@@ -1491,7 +1493,12 @@ input[type=submit]{
         left: 40%;
         top:40%;
     }
-
+    .web div{
+        width: 25%;
+        height: auto;
+        margin-right: 31px;
+        margin-top: 0;
+    }
     .templatemo_servicecol2	{ margin-top: 15%; float: left; }
     .s_top	{ margin-top: 14%; }
     .hexagon-a	{ margin-left: 5px; }
