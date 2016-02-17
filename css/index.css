@@ -188,7 +188,7 @@ p,body,a,span{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: url("../img/myself.jpg") center center;
+    background: url("../img/me.jpg") center center;
     background-size: cover;
     border:5px solid rgba(255,255,255,1);
     font-size:60px;
